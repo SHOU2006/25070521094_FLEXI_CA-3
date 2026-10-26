@@ -1,0 +1,14 @@
+{
+  "name": "25070521094",
+  "version": "1.0.0",
+  "description": "25070521094 - FocusFlow Student Dashboard",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
